@@ -101,6 +101,21 @@ body {
     line-height: 1.5;
 }
 
+.education {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.row {
+    display: flex;
+    gap: 10px;
+}
+.row strong {
+    width: 100px;
+    display: inline-block;
+}
+
+
 .experience ul {
     padding-left: 20px;
 }

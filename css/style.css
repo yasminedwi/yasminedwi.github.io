@@ -14,9 +14,8 @@ body {
 }
 
 .cv {
-    top: 40px;
-    left: 40px;
-    width: 1000px;
+    width: 90%; /* Makes it fit the screen */
+    max-width: 1000px; /* Prevents it from being too large */    
     padding: 40px;
     display: grid;
     grid-template-columns: 1fr 2fr;

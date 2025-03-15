@@ -6,16 +6,16 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #eaeaea;
+    background-color: #857a8d;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-.resume {
+.cv {
     width: 800px;
-    background: white;
+    background: rgb(241, 233, 243);
     padding: 40px;
     display: grid;
     grid-template-columns: 1fr 2fr;

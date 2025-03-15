@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #857a8d;
+    background-color: #979797;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,8 +22,8 @@ body {
     gap: 40px;
     position: relative;
     border-radius: 25px;
-    background: #f1e9f3; /* Solid background */
-    box-shadow: 0 0 20px 20px #f1e9f3
+    background: #ffffff; /* Solid background */
+    box-shadow: 0 0 20px 20px #ffffff
 
 }
 
@@ -142,10 +142,10 @@ body {
     }
 
     .name::after {
-        content: "";
         width: calc(100% + 60px);
-        height: 25px;
-        background: rgba(218, 165, 32, 0.3);
+        left: -30px;
+        box-shadow: -5px 0 10px rgba(218, 165, 32, 0.3), 
+        5px 0 10px rgba(218, 165, 32, 0.3);
     }
 
     .left-column {

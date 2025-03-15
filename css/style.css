@@ -14,15 +14,17 @@ body {
 }
 
 .cv {
+    top: 40px;
     width: 1000px;
-    background: rgb(241, 233, 243);
     padding: 40px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 40px;
     position: relative;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     border-radius: 25px;
+    background: #f1e9f3; /* Solid background */
+    box-shadow: 0 0 20px 20px #f1e9f3
+
 }
 
 .left-column {

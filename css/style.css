@@ -14,7 +14,7 @@ body {
 }
 
 .cv {
-    width: 800px;
+    width: 1000px;
     background: rgb(241, 233, 243);
     padding: 40px;
     display: grid;
@@ -24,7 +24,6 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Left Sidebar */
 .left-column {
     border-right: 2px solid #ccc;
     padding-right: 20px;
@@ -63,7 +62,7 @@ body {
 }
 
 .profile-photo {
-    width: 100%;
+    width: 50%;
     height: auto;
     margin-top: 20px;
     border-radius: 5px;

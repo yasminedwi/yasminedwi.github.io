@@ -95,7 +95,7 @@ body {
 }
 
 .icon-sm {
-    width: 3%;
+    width: 5%;
     height: auto;
     border-radius: 10px;
 }
@@ -291,6 +291,12 @@ button {
     }
     .profile-photo {
         width: 80px;
+    }
+
+    .icon-sm {
+        width: 3%;
+        height: auto;
+        border-radius: 10px;
     }
 
     .row {

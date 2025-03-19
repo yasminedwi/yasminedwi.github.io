@@ -60,7 +60,6 @@ body {
     position: relative;
 }
 .name {
-    font-size: 24px;
     font-weight: 600;
     text-transform: uppercase;
     position: relative;
@@ -199,7 +198,7 @@ body.dark-mode .cv {
 }
 
 body.dark-mode .name::after {
-    background: linear-gradient(to right,#ffffff00 4%, #1c161e 16%,#1c161e 85%,#97979700 96%);
+    background: linear-gradient(to right,#ffffff00 4%,#1c161e 16%);
 }
 
 body.dark-mode .section h2 {
@@ -308,6 +307,24 @@ button {
         top: 10px;
         right: 10px;
         padding: 8px 12px;
-        font-size: 14px;
     }    
+
+    body.dark-mode .cv {
+        padding: 40px;
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    body.dark-mode .name::after {
+        background: linear-gradient(to right,#ffffff00 4%,#1c161e 16%, #1c161e 85%,#97979700 96%);
+    }    
+
+    body.dark-mode .left-column {
+        border-right: none;
+        padding-right: 0;
+        text-align: center;
+        position: relative;
+        padding-bottom: 20px;
+    }
+
 }

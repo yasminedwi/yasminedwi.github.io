@@ -202,6 +202,10 @@ body.dark-mode .name::after {
     background: linear-gradient(to right,#ffffff00 4%, #1c161e 16%,#1c161e 85%,#97979700 96%);
 }
 
+body.dark-mode .section h2 {
+    color: #696868;
+}
+
 body.dark-mode .contact-info,
 body.dark-mode .section p,
 body.dark-mode .experience li {

@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const toggleButton = document.getElementById("darkModeToggle");
+    const homeButton = document.getElementById("home");
     const body = document.body;
 
     if (localStorage.getItem("dark-mode") === "enabled") {
@@ -18,4 +19,10 @@ document.addEventListener("DOMContentLoaded", function () {
             toggleButton.innerHTML = "🌙";
         }
     });
+
+    if (homeButton) {
+        homeButton.addEventListener("click", function () {
+            window.location.href = "index.html";
+        });
+    }
 });

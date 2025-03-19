@@ -91,6 +91,12 @@ body {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+.icon-sm {
+    width: 3%;
+    height: auto;
+    border-radius: 10px;
+}
+
 .contact-info {
     margin-top: 20px;
     font-size: 14px;

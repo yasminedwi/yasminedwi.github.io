@@ -5,18 +5,16 @@
 {
   "@context": "https://schema.org",
   "@graph": [
+
     {
       "@type": "Person",
-      "@id": "#yasmine",
+      "@id": "#person",
       "name": "Yasmine Dwi Anatasya P.",
       "jobTitle": "University Student",
       "birthDate": "2005-06-25",
       "email": "mailto:ydwi3110@gmail.com",
       "telephone": "+6282221114250",
       "url": "https://yasminedwi.github.io/cv.html",
-      "sameAs": [
-        "https://github.com/yasminedwi"
-      ],
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Kendari",
@@ -75,15 +73,6 @@
     },
 
     {
-      "@type": "Project",
-      "name": "Personal Semantic Profile Website",
-      "description": "Personal curriculum vitae website implementing Semantic Web concepts using Schema.org JSON-LD.",
-      "creator": {
-        "@id": "#yasmine"
-      }
-    },
-
-    {
       "@type": "DefinedTerm",
       "name": "Web Development"
     },
@@ -96,7 +85,35 @@
     {
       "@type": "DefinedTerm",
       "name": "Database Management"
+    },
+
+    {
+      "@type": "Project",
+      "name": "Personal Semantic Profile Website",
+      "description": "Personal profile website implementing Semantic Web concepts using HTML, CSS, Schema.org, and JSON-LD.",
+      "creator": {
+        "@id": "#person"
+      }
+    },
+
+    {
+      "@type": "Project",
+      "name": "SiPadu",
+      "description": "Academic information system application project.",
+      "creator": {
+        "@id": "#person"
+      }
+    },
+
+    {
+      "@type": "Project",
+      "name": "Beauty Stock Management Website",
+      "description": "Website for beauty product stock management.",
+      "creator": {
+        "@id": "#person"
+      }
     }
+
   ]
 }
 </script>
@@ -194,7 +211,17 @@
                 <span>|</span>
                 Personal Semantic Profile Website (2026)
             </p>
+            <p class="row">
+                <strong>Application</strong>
+                <span>|</span>
+                SiPadu (2026)
+            </p>
             </div>
+            <p class="row">
+                <strong>Website</strong>
+                <span>|</span>
+                Beauty Stock Management Website (2024)
+            </p>
     </div>
     <script src="script.js"></script>
 </body>

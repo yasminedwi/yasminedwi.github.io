@@ -7,11 +7,16 @@
   "@graph": [
     {
       "@type": "Person",
+      "@id": "#yasmine",
       "name": "Yasmine Dwi Anatasya P.",
       "jobTitle": "University Student",
       "birthDate": "2005-06-25",
       "email": "mailto:ydwi3110@gmail.com",
       "telephone": "+6282221114250",
+      "url": "https://yasminedwi.github.io/cv.html",
+      "sameAs": [
+        "https://github.com/yasminedwi"
+      ],
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Kendari",
@@ -48,7 +53,13 @@
       "@type": "CollegeOrUniversity",
       "@id": "#uho",
       "name": "Universitas Halu Oleo",
-      "alternateName": "UHO"
+      "alternateName": "UHO",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kendari",
+        "addressRegion": "Sulawesi Tenggara",
+        "addressCountry": "Indonesia"
+      }
     },
 
     {
@@ -64,18 +75,27 @@
     },
 
     {
+      "@type": "Project",
+      "name": "Personal Semantic Profile Website",
+      "description": "Personal curriculum vitae website implementing Semantic Web concepts using Schema.org JSON-LD.",
+      "creator": {
+        "@id": "#yasmine"
+      }
+    },
+
+    {
       "@type": "DefinedTerm",
       "name": "Web Development"
     },
 
     {
       "@type": "DefinedTerm",
-      "name": "Database Management"
+      "name": "Programming"
     },
 
     {
       "@type": "DefinedTerm",
-      "name": "Programming"
+      "name": "Database Management"
     }
   ]
 }
@@ -165,6 +185,15 @@
                 <h2>Organization</h2>
             <p class="row"><strong>Member</strong><span>|</span> Kanivers (2019 - 2023)</p>
             <p class="row"><strong>Division Coordinator</strong><span>|</span> HMPS Ilmu Komputer UHO (2026 - Present)</p>
+            </div>
+
+            <div class="section">
+                <h2>Project</h2>
+            <p class="row">
+                <strong>Website</strong>
+                <span>|</span>
+                Personal Semantic Profile Website (2026)
+            </p>
             </div>
     </div>
     <script src="script.js"></script>

@@ -8,22 +8,25 @@
 
     {
       "@type": "Person",
-      "@id": "#person",
+      "@id": "#yasmine",
       "name": "Yasmine Dwi Anatasya P.",
       "jobTitle": "University Student",
       "birthDate": "2005-06-25",
       "email": "mailto:ydwi3110@gmail.com",
       "telephone": "+6282221114250",
       "url": "https://yasminedwi.github.io/cv.html",
+
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Kendari",
         "addressRegion": "Sulawesi Tenggara",
         "addressCountry": "Indonesia"
       },
+
       "alumniOf": {
         "@id": "#uho"
       },
+
       "memberOf": [
         {
           "@id": "#kanivers"
@@ -32,18 +35,29 @@
           "@id": "#hmps"
         }
       ],
+
       "knowsAbout": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "PHP",
-        "Python",
-        "C++",
-        "MySQL",
-        "Web Development",
-        "Database Management",
-        "Photography",
-        "Media Editing"
+        {
+          "@id": "#webdev"
+        },
+        {
+          "@id": "#programming"
+        },
+        {
+          "@id": "#database"
+        }
+      ],
+
+      "subjectOf": [
+        {
+          "@id": "#project1"
+        },
+        {
+          "@id": "#project2"
+        },
+        {
+          "@id": "#project3"
+        }
       ]
     },
 
@@ -74,44 +88,41 @@
 
     {
       "@type": "DefinedTerm",
+      "@id": "#webdev",
       "name": "Web Development"
     },
 
     {
       "@type": "DefinedTerm",
+      "@id": "#programming",
       "name": "Programming"
     },
 
     {
       "@type": "DefinedTerm",
+      "@id": "#database",
       "name": "Database Management"
     },
 
     {
       "@type": "Project",
+      "@id": "#project1",
       "name": "Personal Semantic Profile Website",
-      "description": "Personal profile website implementing Semantic Web concepts using HTML, CSS, Schema.org, and JSON-LD.",
-      "creator": {
-        "@id": "#person"
-      }
+      "description": "Personal profile website implementing Semantic Web concepts using HTML, CSS, and JSON-LD."
     },
 
     {
       "@type": "Project",
+      "@id": "#project2",
       "name": "SiPadu",
-      "description": "Academic information system application project.",
-      "creator": {
-        "@id": "#person"
-      }
+      "description": "Academic information system application project."
     },
 
     {
       "@type": "Project",
+      "@id": "#project3",
       "name": "Beauty Stock Management Website",
-      "description": "Website for beauty product stock management.",
-      "creator": {
-        "@id": "#person"
-      }
+      "description": "Website for beauty product stock management."
     }
 
   ]

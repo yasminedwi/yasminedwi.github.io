@@ -118,6 +118,25 @@ body {
     margin-top: 15px;
 }
 
+.identity {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.identity a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.identity p {
+    margin-bottom: 8px;
+}
+
+.identity h4 {
+    margin-top: 15px;
+}
+
 .right-column h2 {
     font-size: 18px;
     font-weight: 700;
